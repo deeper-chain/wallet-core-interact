@@ -10,7 +10,7 @@ app.use(express.json());
 const HD_WALLET_PATH = '../hd-wallet/target/release/hd-wallet';
 
 // Proxy server endpoint
-const PROXY_SERVER_ENDPOINT = 'http://localhost:8080';
+const PROXY_SERVER_ENDPOINT = 'https://proxy-wallet-dev.deeper.network/';
 
 // Default gas price and limit
 const GAS_PRICE = '296835814432';
