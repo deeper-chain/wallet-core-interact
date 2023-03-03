@@ -9,11 +9,12 @@ This project demonstrates how to integrate a hardware wallet with an Ethereum ap
 3. Install the project's dependencies by running the following command in the project root directory:  
 
 ```bash
-npm install
+npm install express
+npm install axios
 ```
 4. Build the project by running the following command:  
 ```bash
-npm run build
+npm build
 ```
 ## Usage
 1. Connect your hardware wallet to your computer.  
@@ -23,7 +24,7 @@ npm run build
 3. Start the application by running the following command in the project root directory:  
 
 ```bash
-npm start
+node wallet.js
 ```
 4. Use the following command to transfer Ethereum from one address to another: 
 ```bash
